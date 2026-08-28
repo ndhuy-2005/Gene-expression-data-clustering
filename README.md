@@ -53,7 +53,7 @@ flowchart TD
     style E fill:#6b21a8,stroke:#a855f7,stroke-width:2px,color:#fff
     style F fill:#374151,stroke:#9ca3af,stroke-width:1px,color:#fff
     style G fill:#1d4ed8,stroke:#3b82f6,stroke-width:2px,color:#fff
-    style H fill:#15803d,stroke:#22c55e,stroke-width:2px,color:#fff
+    style H fill:#15803d,stroke:#22c55e,stroke-width:2px,color:#fff```
 
 ## ⚙️ Quy trình chi tiết
 
