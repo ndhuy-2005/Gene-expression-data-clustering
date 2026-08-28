@@ -109,42 +109,6 @@ Mục tiêu chính là kết hợp kết quả từ các mô hình thành phần
 
 ---
 
-
-
-## 📁 Cấu trúc Repository đề xuất
-
-
-
-```text
-
-├── data/
-
-│   └── GSE44861.csv              # Dữ liệu gen biểu hiện (GEO Accession: GSE44861)
-
-├── notebooks/
-
-│   ├── 01_Preprocessing_PCA.ipynb
-
-│   ├── 02_Base_Models_Evaluation.ipynb
-
-│   └── 03_Ensemble_Clustering.ipynb
-
-├── src/
-
-│   ├── preprocessing.py          # Tiền xử lý & PCA
-
-│   ├── base_models.py            # Huấn luyện KMeans, Agglomerative, Spectral
-
-│   └── ensemble.py               # Xây dựng ma trận tương đồng & Re-clustering
-
-├── report/
-
-│   └── Machine_Learning_Report.pdf # Báo cáo chi tiết dạng PDF
-
-├── README.md
-
-└── requirements.txt
-
 ## 🏗️ Architecture & Workflow
 
 Mô hình được triển khai qua 5 bước chính:
